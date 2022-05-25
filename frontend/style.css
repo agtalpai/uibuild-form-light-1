@@ -1,0 +1,131 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7e4d4;
+}
+
+body div {
+  max-width: 520px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10% auto;
+  padding: 20px;
+}
+
+body div h1 {
+  padding-bottom: 20px;
+  color: #467745;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+@media (max-width: 519px) {
+  body div h1 {
+    text-align: left;
+    font-size: 36px;
+  }
+}
+
+body div input {
+  max-width: 480px;
+  width: 480px;
+  height: 64px;
+  padding: 20px;
+  background-color: white;
+  color: #467745;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (max-width: 519px) {
+  body div input {
+    max-width: 100%;
+    min-width: 40px;
+  }
+}
+
+body div ::-webkit-input-placeholder {
+  color: #467745;
+  opacity: 0.6;
+}
+
+body div :-ms-input-placeholder {
+  color: #467745;
+  opacity: 0.6;
+}
+
+body div ::-ms-input-placeholder {
+  color: #467745;
+  opacity: 0.6;
+}
+
+body div ::placeholder {
+  color: #467745;
+  opacity: 0.6;
+}
+
+body div textarea {
+  max-width: 480px;
+  width: 480px;
+  height: 120px;
+  padding: 20px;
+  background-color: white;
+  margin: 20px 0;
+  color: #467745;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (max-width: 519px) {
+  body div textarea {
+    max-width: 100%;
+    min-width: 40px;
+  }
+}
+
+body div form {
+  width: 480px;
+}
+
+body div form input {
+  width: 20px;
+  max-width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0;
+  margin: 0;
+}
+
+body div form label {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: #467745;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body div button {
+  position: relative;
+  max-width: 280px;
+  width: 280px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 40px 21%;
+  background-color: #467745;
+  color: #f7e4d4;
+  font-family: 'EB Garamond', serif;
+  font-weight: normal;
+  font-size: 21px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,98 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7e4d4;
+
+    div {
+        max-width: 520px;
+        height: fit-content;
+        margin: 10% auto;
+        padding: 20px;
+
+        h1 {
+            padding-bottom: 20px;
+            color: #467745;
+            text-align: center;
+            font-family: 'EB Garamond', serif;
+            font-weight: normal;
+            font-size: 48px;
+            
+            @media (max-width: 519px) { //nem tudni mennyi a mobil
+                text-align: left;
+                font-size: 36px;
+            }
+        }
+        input {
+            max-width: 480px;
+            width: 480px;
+            height: 64px;
+            padding: 20px;
+            background-color: white;
+            color: #467745;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+    
+            @media (max-width: 519px) {
+                max-width: 100%;
+                min-width: 40px;
+            }
+        }
+        ::placeholder {
+            color: #467745;
+            opacity: 0.6;
+        }
+        textarea {
+            max-width: 480px;
+            width: 480px;
+            height: 120px;
+            padding: 20px;
+            background-color: white;
+            margin: 20px 0;
+            color: #467745;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+    
+            @media (max-width: 519px) {
+                max-width: 100%;
+                min-width: 40px;
+            }
+        }
+        form {
+            width: 480px;
+            input {
+                width: 20px;
+                max-width: 20px;
+                height: 20px;
+                appearance: none;
+                padding: 0;
+                margin: 0;
+            }
+            label {
+                padding-left: 10px;
+                padding-bottom: 10px;
+                color: #467745;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+        button {
+            position: relative;
+            max-width: 280px;
+            width: 280px;
+            height: 80px;
+            border-radius: 40px;
+            margin: 40px 21%;
+            background-color: #467745;
+            color: #f7e4d4;
+            font-family: 'EB Garamond', serif;
+            font-weight: normal;
+            font-size: 21px;
+            letter-spacing: 0.2em;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
